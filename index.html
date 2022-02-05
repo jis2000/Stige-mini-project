@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>mini-project</title>
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/5aee647cc4.js"
+      crossorigin="anonymous"
+    ></script>
+    <body>
+      <section class="showcase">
+        <header>
+          <h2 class="logo">Travel</h2>
+          <div class="toggle"></div>
+        </header>
+
+        <video src="video1.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+
+        <div class="text">
+          <h2>Never Stop , Enjoy Your Life</h2>
+          <h3>EXPLORE THE WORLD</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad,
+            cupiditate, accusantium eaque quasi dicta nemo voluptatibus
+            similique quidem ab, quis sed. Animi repudiandae velit tenetur?
+          </p>
+          <a href="#">Explore</a>
+        </div>
+
+        <ul class="social">
+          <!-- <li><img src="" alt="" /></li>
+          <li><img src="" alt="" /></li>
+          <li><img src="" alt="" /></li> -->
+          <li>
+            <a href="#"><i class="social-icon fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="social-icon fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="social-icon fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="social-icon fas fa-envelope"></i></a>
+          </li>
+        </ul>
+      </section>
+
+      <div class="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Book Tickets</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <script>
+        const menuToggle = document.querySelector(".toggle");
+        const showcase = document.querySelector(".showcase");
+
+        menuToggle.addEventListener("click", function () {
+          menuToggle.classList.toggle("active");
+          showcase.classList.toggle("active");
+        });
+      </script>
+    </body>
+  </head>
+</html>
