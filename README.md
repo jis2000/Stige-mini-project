@@ -1,0 +1,2 @@
+# Stige-mini-project
+public
