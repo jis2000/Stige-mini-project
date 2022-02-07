@@ -1,2 +1,2 @@
-# Stige-mini-project
+# Stige-mini-project.github.io
 public
